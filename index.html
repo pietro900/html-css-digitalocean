@@ -3,33 +3,35 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <script src="https://kit.fontawesome.com/d1d6e446fd.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header class="navbar-fixed-top">
-            <nav class="top container-fluid">
-                <nav class="nav navbar-left" >
-                    <a href="#">
-                        <p>
-                            <span class="btn">new</span>
-                            Working on something related to COVID-19? DigitalOcean would like to help ❯
-                        </p>
-                    </a>
+            <div class="aa">
+                <nav class="top container-fluid">
+                    <nav class="nav navbar-left" >
+                        <a href="#">
+                            <p>
+                                <span class="btn">new</span>
+                                Working on something related to COVID-19? DigitalOcean would like to help ❯
+                            </p>
+                        </a>
+                        </nav>
+                    <nav class="navbar-right">
+                        <ul class="nav navbar-nav navbar-right ">
+                            <li><a href="#">Docs</a></li>
+                            <li><a href="#">GetSupport</a></li>
+                            <li><a href="#">Sales</a></li>
+                            <li><a href="#">Sing in</a></li>
+                        </ul>
                     </nav>
-                <nav class="navbar-right">
-                    <ul class="nav navbar-nav navbar-right ">
-                        <li><a href="#">Docs</a></li>
-                        <li><a href="#">GetSupport</a></li>
-                        <li><a href="#">Sales</a></li>
-                        <li><a href="#">Sing in</a></li>
-                    </ul>
                 </nav>
-            </nav>
-            <nav class="bot container-fluid">
-                <div class="container-fluid" id="logo" >
-                    <div class="row">
-                        <a class="navbar-brand" href="https://www.digitalocean.com/">
+            </div>
+            <nav class="bot ">
+                <div class="row">
+                    <a class="navbar-brand" href="https://www.digitalocean.com/">
                           <svg xmlns="http://www.w3.org/2000/svg" width="172" height="29" viewBox="0 0 172 29">
                             <title>DigitalOcean home</title>
                             <g fill-rule="evenodd">
@@ -41,25 +43,70 @@
                               <!-- END BRAND NAME -->
                             </g>
                           </svg>
-                        </a>
-                        <ul class="navbar navbar-left" id="link">
-                            <li class="dropdown-sy"><a href="#">Products</a></li>
-                            <li><a href="#">Marketplace</a></li>
-                            <li><a href="#">Customers</a></li>
-                            <li><a href="#">Market</a></li>
-                            <li class="dropdown-sy"><a href="#">Community</a></li>
-                            <li><a href="#">Pricing</a></li>
-                             </ul>
-                             <a class="btn btn-defoault navbar-right" href="#" id="btn-heder">Sign Up</a>
-                    </div>
+                    </a>
+                    <button type="button"  id="fantasma">
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                    </button>
+                    <ul class="navbar navbar-left" id="link">
+                        <li class="dropdown-sy"><a href="#">Products</a></li>
+                        <li><a href="#">Marketplace</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Market</a></li>
+                        <li class="dropdown-sy"><a href="#">Community</a></li>
+                        <li><a href="#">Pricing</a></li>
+                     </ul>
+                    <a class="btn btn-defoault navbar-right" href="#" id="btn-heder">Sign Up</a>
                 </div>
             </nav>
         </header>
         <main>
             <div class="jumbotron">
-                  <h1>Hello, world!</h1>
-                  <p>...</p>
-                  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                <div class="container">
+                    <div class="row">
+                        <div id="welcome" class="col-xs-12 col-sm-6">
+                            <h1>Welcome to the developer cloud</h1>
+                            <p>
+                                We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.
+                            </p>
+                        </div>
+                        <form class="col-xs-12 col-sm-5 col-sm-offset-1">
+                            <div class="home">
+                                <h2>Deploy in seconds</h2>
+                            </div>
+                             <div class="form-group">
+                                <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Full name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email address">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Create a password">
+                            </div>
+                            <div class="form-group">
+                                 <button type="button" class="btn btn-primary btn-lg btn-block">Create your account</button>
+                            </div>
+                            <div class="login-choice">
+                                <span>or sign up with</span>
+                              </div>
+                            <div class="buttoms">
+                                <a href="#" class="btn btn-default">
+                                    <i class="fab fa-google"></i>
+                                    Google
+                            </a>
+                                <a href="#" class="btn btn-default">
+                                    <i class="fab fa-facebook-square"></i>
+                                    Ghit Hub
+                                </a>
+                            </div>
+                            <div class="form">
+                                <p>By signing up you agree to the
+                                <a href="#">Terms of Service</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </main>
     </body>
