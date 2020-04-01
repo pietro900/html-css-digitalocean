@@ -1,0 +1,74 @@
+.top{
+    border-bottom: 1px solid #e5e8ed;
+}
+
+.nav>li>a:hover{
+    background-color: #fff;
+    cursor: grab;
+}
+
+.navbar-left .btn{
+    background-color: #00d7d2;
+    padding: 0 5px;
+    color: #031b4e;
+}
+
+.navbar-left a p{
+    margin-top: 15px;
+}
+
+.navbar-left a:hover{
+    text-decoration: none;
+}
+
+header{
+    margin: 0 30px;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+@media (max-width: 1049px){
+    .navbar-right{
+        display: none;
+    }
+}
+/* heder bot*/
+svg{
+    fill: #0069ff;
+}
+
+li{
+    display: inline-block;
+}
+
+#link li{
+        padding-top: 18px;
+        padding-left: 20px;
+}
+
+#link li a{
+    font-size: 16px;
+    color: #031b4e;
+}
+
+@media (max-width: 1049px){
+    #link{
+        display: none;
+    }
+}
+
+#btn-heder{
+    margin-top: 12px;
+    margin-right: 5px;
+    background-color: transparent;
+    border: 1px solid #0069ff;
+    border-radius: 5px;
+}
+
+#btn-heder:hover{
+    background-color: #0069ff;
+    color: #fff;
+    border-color: #0069ff;
+}
