@@ -42,11 +42,8 @@ svg{
     fill: #0069ff;
 }
 
-li{
-    display: inline-block;
-}
-
 #link li{
+        display: inline-block;
         padding-top: 18px;
         padding-left: 20px;
 }
@@ -104,9 +101,11 @@ li{
 .jumbotron{
     background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
     padding-top: 180px;
+    margin-bottom: 0;
 }
 
 #welcome h1{
+    font-weight: bold;
     font-size: 62px;
     line-height: 1.18;
     color: #fff;
@@ -176,8 +175,6 @@ form{
 
 .buttoms{
     color: #031b4e;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .buttoms a{
@@ -189,4 +186,63 @@ form{
     text-align: center;
     padding-top: 16px;
     margin: 0 0 16px;
+}
+
+/*fine jambotron*/
+#loghi{
+    background-color: #f3f5f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#loghi h2{
+    font-weight: 400;
+    line-height: 1.25;
+    font-size: 14px;
+    opacity: 0.4;
+    font-weight: bolder;
+}
+
+.loghi img{
+    max-width: 100%;
+    align-items: center;
+    height: 160px;
+    object-fit: contain;
+}
+
+#loghi a{
+    background: transparent;
+    color: #0069ff;
+    text-decoration: none;
+    cursor: grab;
+    font-weight: bolder;
+}
+/*fine loghi*/
+
+#lista h2{
+    color: #031b4e;
+    font-weight: bold;
+    line-height: 1.25;
+    font-size: 36px;
+    margin: 0 0 16px;
+}
+
+#lista p{
+    font-size: 20px;
+    margin-bottom: 64px;
+    color: rgba(3,27,78,.7);
+    line-height: 1.5;
+}
+
+.container-small{
+    max-width: 900px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    margin: auto;
+}
+
+@media all and ( man-width: 479px) {
+    .col-sxs{ width: 100%;
+    }
 }
